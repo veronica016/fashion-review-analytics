@@ -152,3 +152,7 @@ Recruiters assessing ML model interpretability + UI polish
 ✅ Dashboard-ready with UX in mind
 
 ✅ Built with 0 paid tools, 100% skill
+
+## Dataset:
+
+https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
