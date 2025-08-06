@@ -22,7 +22,7 @@ model = joblib.load(os.path.join(MODELS_DIR, "recommendation_model.pkl"))
 
 # --- UI HEADER ---
 st.markdown(
-    "<h1 style='text-align: center; color: #FF69B4;'>AI BASED CUSTOMER BEHAVIOUR ANALYTICS FOR FASHION BRANDS</h1>",
+    "<h1 style='text-align: center; color: #FF69B4;'>AI-POWERED FASHION REVIEW ANALYZER</h1>",
     unsafe_allow_html=True
 )
 st.caption("Analyze thousands of reviews to understand what drives product recommendations.")
