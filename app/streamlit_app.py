@@ -181,16 +181,23 @@ with st.expander("Model Explainability (SHAP)"):
     review_index = st.slider("Pick review index", 0, len(shap_input) - 1, 10)
     st.write(df.iloc[review_index][['Review Text']])
 
-    # SHAP force plot (matplotlib backend)
-    fig_force = plt.figure()
-    shap.force_plot(
+
+    # SHAP Decision Plot
+    # SHAP decision plot (clean fix)
+    import matplotlib.pyplot as plt
+
+    st.subheader("SHAP Decision Plot")
+
+    # Create the plot using matplotlib backend
+    plt.figure()
+    shap.decision_plot(
         explainer.expected_value,
         shap_values[review_index],
         shap_input.iloc[review_index],
-        matplotlib=True,
+        feature_names=shap_input.columns.tolist(),
         show=False
     )
-    st.pyplot(fig_force)
+    st.pyplot(plt.gcf())  # Show current figure
     plt.clf()
 
     st.markdown("""
@@ -200,4 +207,3 @@ with st.expander("Model Explainability (SHAP)"):
     - The bigger the bar, the more influence that feature had.
     """)
 
-#DASHBOARD
