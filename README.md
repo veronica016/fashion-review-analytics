@@ -156,3 +156,8 @@ Recruiters assessing ML model interpretability + UI polish
 ## Dataset:
 
 https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
+
+## APP
+
+[![Streamlit App](https://img.shields.io/badge/Live-App-success?logo=streamlit)](https://fashion-review-analytics.streamlit.app/)
+
