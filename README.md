@@ -1,4 +1,4 @@
-# 💄 AI-Based Customer Behavior Analytics for Fashion Brands
+# 💄 AI-powered fashion review analyzer
 
 Built a full-stack machine learning dashboard that analyzes 20,000+ women's clothing reviews using NLP, clustering, predictive modeling, and SHAP explainability. Designed to help fashion brands understand customer sentiment, shopper personas, and product recommendation behavior.
 
