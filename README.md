@@ -159,5 +159,5 @@ https://www.kaggle.com/datasets/nicapotato/womens-ecommerce-clothing-reviews
 
 ## APP
 
-[![Streamlit App](https://img.shields.io/badge/Live-App-success?logo=streamlit)](https://fashion-review-analytics.streamlit.app/)
+[![Streamlit App]([https://img.shields.io/badge/Live-App-success?logo=streamlit)](https://fashion-review-analytics.streamlit.app/](https://fashion-review-analytics-lgsm9q8g4vtresyrjxm6gx.streamlit.app/))
 
